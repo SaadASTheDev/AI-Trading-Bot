@@ -1,0 +1,19 @@
+# Ignore API password file
+Api_Passwords.py
+
+# Ignore model files
+*.joblib
+*.h5
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment files
+venv/
+*.pyc
