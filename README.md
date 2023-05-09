@@ -74,22 +74,15 @@ An automated trading bot that utilizes a combination of Support Vector Machines 
 
 git clone https://github.com/yourusername/AI-Trading-Bot.git
 
-markdown
-Copy code
 
 2. Change the directory:
 
 cd AI-Trading-Bot
 
-markdown
-Copy code
-
 3. Install the required packages:
 
 pip install -r requirements.txt
 
-sql
-Copy code
 
 4. Create an `Api_Passwords.py` file in the project folder with your Alpaca API key and secret:
 
@@ -97,8 +90,6 @@ Copy code
 Api_Key = 'your_api_key'
 Api_Secret = 'your_api_secret'
 Run the trading bot:
-css
-Copy code
 python main.py
 License
 This project is licensed under the MIT License.
