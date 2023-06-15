@@ -13,9 +13,10 @@ import alpaca_trade_api as tradeapi
 import time
 from datetime import datetime, timedelta
 import threading
+from Api_Passwords import Api_Key, Api_Secret
 
-API_KEY = 'PKKB2O487RQ9B3OYGG9I'
-API_SECRET = 'XZuu0ZN2fqcu5nRDysjMEVYuDUQ1OCAt0UJs3X57'
+API_KEY = Api_Key
+API_SECRET = Api_Secret
 BASE_URL = 'https://paper-api.alpaca.markets'
 api = tradeapi.REST(API_KEY, API_SECRET, base_url=BASE_URL, api_version='v2')
 TICKER = 'AAPL'
