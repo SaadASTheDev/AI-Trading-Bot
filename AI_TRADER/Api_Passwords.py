@@ -1,2 +1,0 @@
-Api_Key = 'PKALPYZLNU7UMT7JRAGF'
-Api_Secret = '4KnavyEyYtjsJV4yP49S4uHpDSUbodbSScpRzGBF'
